@@ -450,17 +450,6 @@
             "playerType": 2
         },
         {
-            "key": "骚火影视",
-            "name": "骚火｜APP",
-            "type": 3,
-            "api": "./py/骚火影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
             "key": "柯南影视",
             "name": "柯南｜APP",
             "type": 3,
@@ -581,6 +570,17 @@
             "filterable": 1,
             "playerType": 2
         },    
+        {
+            "key": "骚火影视",
+            "name": "骚火｜APP",
+            "type": 3,
+            "api": "./py/骚火影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
 		{
             "key": "追星影视",
             "name": "追星｜影视",
