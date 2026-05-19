@@ -24,125 +24,6 @@
             "api": "csp_LocalFile"
         },
         {
-            "key": "AList",
-            "name": "小雅｜合集",
-            "type": 3,
-            "api": "csp_Alist",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "./json/alist.json"
-        },
-        {
-            "key": "兔儿音乐",
-            "name": "兔儿｜音乐",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./json/兔儿音乐.json"
-        },
-        {
-      "key": "csp_Kugou",
-      "name": "酷狗｜音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "jar": "./jar/Yoursmile.jar",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
-      }
-    },
-        {
-            "key": "网络直播",
-            "name": "网络｜直播",
-            "type": 3,
-            "api": "./py/网络直播.py"
-        },
-        {
-            "key": "哔哩直播",
-            "name": "哔哩｜直播",
-            "type": 3,
-            "api": "./py/哔哩直播.py"
-        },
-        {
-            "key": "集多聚合",
-            "name": "直播┃聚合",
-            "type": 3,
-            "api": "csp_LiveLm",
-            "jar": "./jar/jd.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "style": {
-                "type": "rect",
-                "ratio": 1.309
-            },
-            "ext": {
-                "siteUrl": "https://lemonlive.pages.dev",
-                "msg": "124421jh8lk39646pgruC6dATnyTtf6ewyst71opcsJfticyXxWGbU5x4zxzEQ5LWhshM7QSmwiAgf0H4RN8rjjuUPQPPsiTj8Yz48I27L5SoL/Lbg70J558Qnv6Dtdt9BeeyWciQnnqApDLzxuKF+nEHryocRY26k1efEO43zCfP69tVyTyWvQ/MT7q/J7KDiOdwg0CGUc0cPhVc3AiwU6ZXIapEVCaeJ1OkLO2LzfrGsCulTGV9LrN4N8omBYpohl4BgdDhg8SQwEh9MoFXC1M2AqzePjz+itosXK3VQ3Ch4ba88bCsZSAs56JWl570OQ5t3yuPDslC75Y1p4Y9x9OOnztqiDqRbgpaXR5KWKYWfjU9T1H2SXW3uAmq9Z2GQKDrAQT7gB35NJeagOshSRZScjiS3Ss7lf/6iMfs9NInk9DfLj/H/9HCcIDRr1AG/ZGgLLtB/doGr0l/oENwrHwu+kLjzqWcmiAPcaLdbeeK18hxlYJBvXIlfjoWgopvFnm7338rR8k7EwtnU39fRJph5WcuPdvL5ZivGdWO+EYQ47zLhX038Vcju8iF3omFTj5W6D9FEOXryKIMCBgi8G5t+I73iaFCGGzTA=="
-            }
-        },
-        {
-            "key": "比赛看球",
-            "name": "比赛｜看球",
-            "type": 3,
-            "api": "csp_Kanqiu",
-            "gridview": 3,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "急救教学",
-            "name": "家庭｜教学",
-            "type": 3,
-            "api": "csp_FirstAid",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            },
-            "gridview": "0-0-4.1"
-        },
-        {
-      "key": "家庭养生",
-      "name": "家庭｜养生",
-      "type": 3,
-      "api": "csp_HBPQ",
-      "ext": "./json/YST.json",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-            "key": "七七采集网",
-            "name": "七七｜采集",
-            "type": 1,
-            "api": "http://6.qqqtv.top/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "推荐",
-                "电影",
-                "电视剧",
-                "综艺",
-                "动漫"
-            ]
-        },
-        {
             "key": "热播影视",
             "name": "热播｜APP",
             "type": 3,
@@ -470,6 +351,116 @@
             }
         },
         {
+            "key": "绝对PY",
+            "name": "绝对｜APP",
+            "type": 3,
+            "api": "./py/绝对影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "小苹果PY",
+            "name": "水果｜APP",
+            "type": 3,
+            "api": "./py/小苹果影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "云端PY",
+            "name": "云端｜APP",
+            "type": 3,
+            "api": "./py/云端影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "若惜影视",
+            "name": "若惜｜APP",
+            "type": 3,
+            "api": "./py/若惜影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "云速影视",
+            "name": "云速｜APP",
+            "type": 3,
+            "api": "./py/云速影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "国外影视",
+            "name": "全球｜APP",
+            "type": 3,
+            "api": "./py/国外剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "小红影视",
+            "name": "小红｜APP",
+            "type": 3,
+            "api": "./py/小红影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "零度影视",
+            "name": "零度｜APP",
+            "type": 3,
+            "api": "./py/零度影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "茶杯狐影视",
+            "name": "茶杯｜APP",
+            "type": 3,
+            "api": "./py/茶杯狐影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "骚火影视",
+            "name": "骚火｜APP",
+            "type": 3,
+            "api": "./py/骚火影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "哔哩视频",
             "name": "哔哩｜视频",
             "type": 3,
@@ -711,116 +702,6 @@
             "name": "猎手｜影视",
             "type": 3,
             "api": "./py/猎手影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "绝对PY",
-            "name": "绝对｜APP",
-            "type": 3,
-            "api": "./py/绝对影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "小苹果PY",
-            "name": "水果｜APP",
-            "type": 3,
-            "api": "./py/小苹果影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "云端PY",
-            "name": "云端｜APP",
-            "type": 3,
-            "api": "./py/云端影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "若惜影视",
-            "name": "若惜｜APP",
-            "type": 3,
-            "api": "./py/若惜影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "云速影视",
-            "name": "云速｜APP",
-            "type": 3,
-            "api": "./py/云速影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "国外影视",
-            "name": "全球｜APP",
-            "type": 3,
-            "api": "./py/国外剧.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "小红影视",
-            "name": "小红｜APP",
-            "type": 3,
-            "api": "./py/小红影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "零度影视",
-            "name": "零度｜APP",
-            "type": 3,
-            "api": "./py/零度影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "茶杯狐影视",
-            "name": "茶杯｜APP",
-            "type": 3,
-            "api": "./py/茶杯狐影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "骚火影视",
-            "name": "骚火｜APP",
-            "type": 3,
-            "api": "./py/骚火影视.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
